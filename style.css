@@ -1,0 +1,475 @@
+.container-fluid {
+    padding: 3% 10%;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    padding-top: 0;
+    padding-bottom: 10%;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+    
+    font-weight: 400;
+    padding: 20% 0 0.5%;
+    margin: 0;
+}
+
+
+h2{
+    font-size: 1rem;
+    margin-top: 10%;
+}
+
+/*    main card    */
+.main-card {
+    position:relative;
+    height:500px;
+    
+}
+
+.padding-left-right{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.owner-image{
+    width: 100px;
+    
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+left-container {
+    height: 500px;
+
+}
+
+.col-md-3{
+    padding: 0 8px 0 0;
+}
+
+
+
+.col-md-4{
+    padding: 0;
+    height: 250px;
+}
+
+
+.row-top{
+    height: 250px; 
+}
+.row-bottom{
+    height: 250px;
+    margin-top: 15px;
+}
+
+.card-simple{
+    margin: 0 8px;
+    height: 250px;
+    border-radius: 15px 15px 50% 50%;
+
+}
+
+
+
+
+.owner-container{
+    margin-right: 5%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.owner-top-part{
+    width: 100%;
+    height: 320px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    position: relative;
+    z-index: 3;
+}
+.owner-info-container{
+    padding-bottom: 20px;
+}
+
+.owner-info{
+    padding: 0;
+    
+}
+
+.owner-info-report{
+    color:hsl(236, 100%, 87%);
+}
+
+.owner-bottom-part{
+    width: 100%;
+    height: 250px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    position: relative;
+    top:-54px;
+    
+    
+}
+
+.owner-bottom-h3{
+    width: 100%;
+    position: relative;
+    top: 90px;
+}
+
+.owner-h3{
+    padding: 15px 0;
+    font-size: 1rem;
+}
+
+.owner-h3:hover{
+    cursor: pointer;
+    color:#fff
+}
+.owner-h3-container{
+    width: 60px;
+    color:hsl(236, 100%, 87%);
+}
+
+
+
+.owner-image-container{
+    padding-top: 30px;
+}
+
+
+
+.card-simple-top-part{
+    border-radius: 15px;
+}
+
+
+.card-simple-bottom-part{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    width: 100%;
+    height: 75%;
+    position: relative;
+    top: 25%;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: background-color linear 0.1s;
+}
+
+.card-simple-bottom-part:hover{
+    background-color: hsl(235, 33%, 48%);
+    cursor:pointer;
+}
+
+.secondary-image{
+    top: 0;
+    right: 7%;
+    position: absolute;
+    overflow-y: hidden;
+}
+
+.secondary-image-bottom{
+    top:5%;
+}
+
+.bottom-card-title{
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+
+
+.bottom-card-previous{
+    margin: 0;
+
+}
+
+.bottom-card-time{
+    padding-bottom: 7%;
+}
+
+.bottom-card-time-container{
+    padding-bottom: 15px;
+}
+
+.bottom-card-headings-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dots {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.dots:hover{
+    cursor: pointer;
+}
+
+.attribution{
+    padding: 0 8%;
+}
+
+.active{
+    color:#fff;
+}
+
+@media (max-width: 1060px) {
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 880px) {
+    h1{
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 3rem;
+        padding: 0;
+        margin: 0;
+    }
+    h3 {
+        padding: 0;
+    }
+    .row-top{
+        height: auto;
+        margin-top: -135px;
+    }
+    .owner-top-part{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .owner-bottom-part {
+        top: -132px;
+    }
+    .owner-bottom-h3 {
+        width: 100%;
+        position: relative;
+        top: 165px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .owner-image{
+        margin-top: 0;
+    }
+
+    .owner-info-container{
+        padding-left: 5%;
+        padding-bottom: 0;
+    }
+
+    .owner-h3{
+        font-size: 1.1rem;
+    }
+
+    
+    .owner-image-container {
+        padding-top: 0;
+    }
+
+    
+
+    .card-simple {
+        margin: 0;
+    }
+
+    .row-bottom {
+        height: auto; 
+        margin-top: 0;
+    }
+
+    .bottom-card-time-container {
+        padding-bottom: 20px;
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bottom-card-time {
+        font-size: 3.5rem;
+    }
+
+    .bottom-card-headings-container {
+        padding-top: 10px;
+    }
+
+    .bottom-card-heading{
+        font-size: 1.2rem;
+    }
+
+    .bottom-card-previous {
+        font-size: 1.2rem;
+    }
+
+    .col-md-4 {
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    
+}
+
+@media (max-width: 880px) {
+    h1{
+        font-size: 2.1rem;
+    }
+}
+/* .card-top{
+    background-color: hsl(246, 80%, 60%);
+    height:350px;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:3;
+    border-radius: 15px;
+    
+}
+
+.card-footer{
+    background-color: hsl(235, 46%, 20%);
+    height:200px;
+    width:100%;
+    position:absolute;
+    top:300px;
+    left:0;
+    border-radius:15px;
+    padding-top: 90px;
+    
+
+}
+
+
+
+.main-card-h3{
+    padding: 0; 
+    color:hsl(236, 100%, 87%);
+    padding-bottom: 5%;
+}
+
+
+.card-footer:last-child {
+    border-radius: 15px;
+}
+
+
+
+
+
+.secondary-card{
+   
+    position: relative;
+    width: 300px;
+   
+    padding-left: 5%;
+    left: 0;
+    width: 100%;
+    
+}
+.secondary-card-bottom{
+    position: relative;
+    width: 100%;
+    top: 244px;
+    margin-top: 5%;
+} */
+
+.light-red{
+    background-color: hsl(15, 100%, 70%);
+}
+
+.lime-green{
+   background-color: hsl(145, 58%, 55%);
+}
+
+.soft-blue {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.light-rose {
+ background-color: hsl(348, 100%, 68%);
+}
+.light-violet {
+    background-color: hsl(264, 64%, 52%);
+}
+.soft-orange {
+ background-color: hsl(43, 84%, 65%);
+}
+
+
+/* .top-part{
+    
+    height: 100px;
+    border-radius: 15px;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.bottom-part{
+    background-color: hsl(235, 46%, 20%);
+    height: 193px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    max-width: 100%;
+    width: 100%;
+    
+    z-index: 5;
+}
+
+.time{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 3.8rem;
+    padding-top: 10%;
+    padding-bottom: 0;
+    
+}
+.previous{
+    font-size: 0.9rem;
+    color:hsl(236, 100%, 87%);
+}
+
+.secondary-image{
+    top: 0;
+    right: 7%;
+    position: absolute;
+    overflow-y: hidden;
+}
+
+.most-powerful{
+    width: 300px;
+    margin-right: 5%;
+} */
+
+
+
